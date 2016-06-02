@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Name=audioinput
+Exec=/usr/bin/audioinput
+Comment=Demonstration of packaging
+Icon=/usr/share/pixmaps/demodeb.ico
+StartupNotify=false
+Categories=Development;GTK;GNOME;
+Keywords=markdown;packaging;
+GenericName=Demo of Packaging
+Name[en_US]=audioinput
