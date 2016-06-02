@@ -1,0 +1,15 @@
+Source: audioinput
+Section: audio
+Priority: optional
+Maintainer: Val Veirs <val@beamreach.org>
+Build-Depends: debhelper (>= 9), qtbase5-dev, qtbase5-dev-tools, qt5-qmake
+Standards-Version: 3.9.6
+Homepage: https://github.com/veirs/test_1.0.0.orig
+
+Package: audioinput
+Architecture: any
+Depends: libqt5gui5, libqt5widgets5, libqt5core5a, ${misc:Depends}, ${shlibs:Depends}
+Description: audioinput is a demo program.
+ audioinput is an app based on Qt and C++.
+ It is ....... It has ...... It supports ...........
+ It is licensed under licensename. See so and so file for more information.

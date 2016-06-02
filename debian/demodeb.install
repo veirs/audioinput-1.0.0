@@ -1,0 +1,3 @@
+bin/demodeb usr/bin
+demodeb.desktop usr/share/applications
+src/demodeb.ico usr/share/pixmaps

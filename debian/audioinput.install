@@ -1,0 +1,3 @@
+bin/audioinput usr/bin
+audioinput.desktop usr/share/applications
+src/audioinput.ico usr/share/pixmaps
