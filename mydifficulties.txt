@@ -1,3 +1,6 @@
+error is reported at line 999 where Qt multimedia cannot be found:  Project ERROR: Unknown module(s) in QT: multimedia
+
+
 val@v:~/Qt_Projects/PackagingFiles/audioInputDemo/gitHubAudio/audioinput-1.0.0$ dh_make -e val@beamreach.org -f ../audioinput_1.0.0.tar.gz -s
 Maintainer name  : val
 Email-Address    : val@beamreach.org 
@@ -10,6 +13,8 @@ Hit <enter> to confirm:
 Currently there is no top level Makefile. This may require additional tuning.
 You already have a debian/ subdirectory in the source tree.
 dh_make will not try to overwrite anything.
+
+
 val@v:~/Qt_Projects/PackagingFiles/audioInputDemo/gitHubAudio/audioinput-1.0.0$ pdebuild --debbuildopts -sa
 dpkg-buildpackage: source package audioinput
 dpkg-buildpackage: source version 1.0.0
